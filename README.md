@@ -12,6 +12,33 @@
 - **`chmod`**: Changes the permissions of files and directories. Control access to files.
 - **`chown`**: Changes the ownership of files. Manage file ownership.
 - **`ln`**: Creates symbolic links to files or directories. Useful for linking files or directories.
+- **`tree`**: Displays the directory structure in a tree format. Useful for visualising directory contents.
+
+## Navigation and File Viewing
+- **`cat`**: Concatenates and displays the content of files. Useful for quickly viewing file contents.
+- **`less`**: Displays file content one page at a time, with the ability to scroll. More memory efficient than `cat` for large files.
+- **`more`**: Similar to `less`, but more basic, displaying file content one page at a time.
+- **`head`**: Outputs the first part (usually 10 lines) of a file. Preview file contents.
+- **`tail`**: Outputs the last part of a file. Often used with `-f` to monitor log files in real time.
+- **`grep`**: Searches for a specified pattern in files. Filter file contents or logs.
+- **`wc`**: Counts words, lines, and characters in a file. Useful for statistics on file content.
+- **`cut`**: Removes sections from each line of files. Extracts columns or fields from a file or output.
+
+## Text Editors
+- **`vim`**: A powerful text editor. Here's how to deal with it:
+  - `i`: Enters insert mode to start editing text.
+  - `:w`: Saves the file.
+  - `:q`: Quits the editor.
+  - `:wq`: Saves and quits.
+  - `:q!`: Quits without saving changes.
+  - Vim is commonly pre-installed on Linux systems and is lightweight but has a steep learning curve.
+  
+- **`nano`**: A more user-friendly text editor. Common shortcuts:
+  - `Ctrl + O`: Saves the file.
+  - `Ctrl + X`: Exits the editor.
+  - `Ctrl + K`: Cuts the current line.
+  - `Ctrl + U`: Pastes the cut line.
+  - **Why use it**: Ideal for quick edits without needing to remember complex commands.
 
 ## System Monitoring and Management
 - **`top`**: Displays system resource usage and running processes. Monitor system performance.
@@ -24,6 +51,7 @@
 - **`kill`**: Terminates a process by its ID. Stop unresponsive or unwanted processes.
 - **`netstat`**: Displays network connections, routing tables, and interface statistics. Monitor network activity.
 - **`ss`**: A more modern replacement for `netstat`, providing similar functionalities with more options.
+- **`lsof`**: Lists open files and the processes using them. Troubleshoot open file issues.
 
 ## Networking
 - **`ssh`**: Connects to a remote machine using SSH protocol. Securely manage remote servers.
@@ -48,6 +76,21 @@
 - **`unzip`**: Extracts files from a zip archive. Decompress files for use.
 - **`mount`**: Mounts a filesystem. Access additional file systems.
 - **`umount`**: Unmounts a filesystem. Safely remove filesystems.
+- **`history`**: Displays the list of recently executed commands. Useful for tracking past commands.
+
+## Scripting and Automation
+- **`bash`**: Runs a bash script. Useful for automating tasks.
+  - `bash script.sh`: Executes the specified bash script.
+- **`chmod +x`**: Makes a script executable.
+  - `chmod +x script.sh`: Allows the script to be run as `./script.sh`.
+- **`./`**: Runs a script in the current directory.
+  - `./script.sh`: Runs the script.
+- **`sh`**: Runs a shell script.
+  - `sh script.sh`: Executes the shell script.
+- **`alias`**: Creates an alias for commands to simplify usage.
+  - `alias ll='ls -la'`: Shortens the command to list files with details.
+- **`echo`**: Prints text or variables to the terminal. Useful in scripts to output information.
+  - `echo "Hello, World!"`: Outputs `Hello, World!`.
 
 ## Development Tools
 - **`git`**: Version control system command-line tool. Manage source code and track changes.
