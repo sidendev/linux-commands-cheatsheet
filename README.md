@@ -1,5 +1,21 @@
 # Linux Commands Cheatsheet
 
+## Table of Contents
+- [File and Directory Management](#file-and-directory-management)
+- [Navigation and File Viewing](#navigation-and-file-viewing)
+- [Text Editors](#text-editors)
+- [System Monitoring and Management](#system-monitoring-and-management)
+- [Networking](#networking)
+- [Log Management](#log-management)
+- [System Administration](#system-administration)
+- [Disk Management](#disk-management)
+- [Scripting and Automation](#scripting-and-automation)
+- [Development Tools](#development-tools)
+- [Monitoring and Alerts](#monitoring-and-alerts)
+- [User Management](#user-management)
+
+---
+
 ## File and Directory Management
 - **`ls`**: Lists files and directories in the current directory. Useful for quickly viewing contents.
 - **`cd`**: Changes the current directory. Navigate through the file system.
